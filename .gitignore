@@ -332,7 +332,5 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
-.vs/slnx.sqlite
-.vs/lebonspanier.github.io/v15/.suo
-.vs/slnx.sqlite
-.vs/lebonspanier.github.io/v15/.suo
+
+# Custom
