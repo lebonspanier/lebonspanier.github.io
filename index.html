@@ -77,175 +77,154 @@
 
         .sticky {
             top: 0;
-            /*width: 100%;
-            z-index: 9999 !important;*/
+            /*width: 100%;*/
+            z-index: 9999 !important;
             position: sticky;
             position: -webkit-sticky;
         }
 
-        /*.affix + .container-fluid {
-            padding-top: 70px;
-        }*/
     </style>
 </head>
 <body>
     <div class="container-fluid bg-light" style="min-width: 440px">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="header-bar border-bottom">
-                    <img src="assets/img/logo.png" class="logo float-left mr-4" />
-                    <h1 class="text-primary text-uppercase site-title">lebonspanier</h1>
-                    <h6 class="text-muted">AMAP Bons-en-Chablais</h6>
-                </div>
-                <nav class="navbar navbar-expand-sm navbar-light bg-light sticky">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <div class="header-bar border-bottom">
+            <img src="assets/img/logo.png" class="logo float-left mr-4" />
+            <h1 class="text-primary text-uppercase site-title">lebonspanier</h1>
+            <h6 class="text-muted">AMAP Bons-en-Chablais</h6>
+        </div>
+        
+        <nav class="navbar navbar-expand-sm navbar-light bg-light sticky">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#distributions">Distributions</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#producteurs">Producteurs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#adhesion">Adhésion</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#distributions">Distributions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#producteurs">Producteurs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#adhesion">Adhésion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <section>
-                    <div class="parallax bg1"></div>
-                    <h2 class="mt-4">Qu'est-ce qu'une AMAP ?</h2>
-                    <p>
-                        AMAP signifie Association pour le Maintien d&#39;une Agriculture Paysanne.
-                        Il s&#39;agit d&#39;une association au sein de laquelle producteurs et consommateurs
-                        de produits agricoles s&#39;engagent par contrat &agrave; fournir pour les uns et acheter
-                        pour les autres, pour une saison de production en g&eacute;n&eacute;ral, les produits cultiv&eacute;s.
-                        Ce mode de fonctionnement pr&eacute;sente de nombreux avantages pour les deux parties,
-                        qui sont expliqu&eacute;s dans la d&eacute;finition de l&#39;annuaire national des AMAPs.
-                    </p>
-                    <p>
-                        L&#39;AMAP Le Bons Panier vous propose des l&eacute;gumes, du fromage, des oeufs, des poissons du l&eacute;man,
-                        des produits laitiers, du poulet, et sur commande ponctuelle d&#39;autres produits.
-                        L&#39;AMAP informe ses membres lorsque ces produits sont propos&eacute;s.
-                    </p>
-                    <p>
-                        L&#39;achat des produits propos&eacute;s par l&#39;AMAP par contrat annuel avec les producteurs
-                        implique &eacute;galement de devenir membre de l&#39;association et de s&#39;engager &agrave; assurer
-                        deux &agrave; trois distributions dans l&#39;ann&eacute;e. C&#39;est en effet gr&acirc;ce &agrave; ce soutien b&eacute;n&eacute;vole
-                        que la distribution des produits peut &ecirc;tre assur&eacute;e tout au long de l&#39;ann&eacute;e.
-                        Un planning des distributions est ainsi constitu&eacute; en d&eacute;but d&#39;ann&eacute;e lorsque
-                        tous les adh&eacute;rents sont inscrits, et un email rappelle chaque semaine le contenu
-                        de la distribution et quelles personnes sont inscrites pour l&#39;assurer.
-                        Des &eacute;changes sont &eacute;videmment possibles en cas d&#39;emp&ecirc;chement.
-                    </p>
-                </section>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <section id="distributions">
-                    <div class="parallax bg2"></div>
-                    <h2 class="mt-4">Distributions</h2>
-                    <p>
-                        Les distributions ont lieu les mardis de 18h &agrave; 19h sous la grenette de la gare de Bons-en-Chablais,
-                        selon le planning ci-desssus. En plus des distributions r&eacute;guli&egrave;res,
-                        les distributions occasionnelles sont notifi&eacute;es par email aux adh&eacute;rents.
-                        <div class="map"><iframe src="https://www.google.com/maps/d/embed?mid=1c-pDLGI22MEEW_p-B7hREPIJHi8" width="640" height="480"></iframe></div>
-                    </p>
-                </section>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <section id="producteurs">
-                    <div class="parallax bg3"></div>
-                    <h2 class="mt-4">Les producteurs</h2>
-                    <ul>
-                        <li>Fromage d&rsquo;abondance: <a target="_blank" href="https://www.facebook.com/GAEC-Grillet-Aubert-227161931151182/">GAEC Grillet Aubert (page Facebook)</a></li>
-                        <li>L&eacute;gumes: <a target="_blank" href="https://www.facebook.com/Le-Potager-des-Fourches-727773764017980/">Le potager des fourches (page Facebook)</a></li>
-                        <li>Produits laitiers (yaourts, fromage blanc, faisselle, lait frais): <a target="_blank" href="http://www.fromages-yaourts-produits-laitiers-chablais.com/">La ferme de p'tit Fou&eacute;</a></li>
-                        <li>Fromages de ch&egrave;vre: <a target="_blank" href="http://www.ferme-de-rimandon.com/">Ferme de Rimandon</a></li>
-                        <li>Oeufs: <a target="_blank" href="http://annuaire-bio.mobi/operateur/74502">La brouette &agrave; plumes</a></li>
-                        <li>P&acirc;tes fra&icirc;ches: <a target="_blank" href="http://www.lemessager.fr/chablais/a-anthy-une-jeune-maraichere-se-lance-dans-les-pates-ia923b924n183824#">Jessica Groppi</a></li>
-                        <li>Poisson du lac: <a target="_blank" href="https://granvillage.com/b/487-lionel-bouchet-vente-de-poissons-du-lac-leman/">Lionel Bouchet</a></li>
-                        <li>Poulet: <a target="_blank" href="http://www.bienvenue-a-la-ferme.com/rhone-alpes/haute-savoie/brenthonne/ferme/gaec-la-praly/257117">GAEC La praly</a></li>
-                        <li>Viande d&rsquo;alpage (boeuf et agneau): <a target="_blank" href="https://www.facebook.com/GAEC-le-coin-1693258800943357/">GAEC le coin &ndash; Mieussy (page Facebook)</a></li>
-                        <li>Pain: <a target="_blank" href="http://www.chablais.bio/le-fournil-de-langin/types-de-pain">Le fournil de Langin</a></li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <section id="adhesion">
-                    <div class="parallax bg4"></div>
-                    <h2 class="mt-4">Adh&eacute;sion</h2>
-                    <p>
-                        L'adhésion à l'AMAP a lieu lors de l'assemblée générale (AG) annuelle. Pour adhérer, 4 étapes indispensables:
-                        <ol>
-                            <li>
-                                Consulter le <a target="_blank" title="reglement intérieur 2019" href="https://drive.google.com/open?id=0BxwkUw_iOCDYZjRiYjljZTgtZGZmOS00Y2YyLTk2MzQtOGM2ZGY2Yjk2Mjlm">règlement intérieur 2019</a>
-                                et les <a target="_blank" title="statut AMAP Bons panier" href="https://drive.google.com/open?id=1_eqD3_-uXCiyqMHvyiD7Kk1EXIJeWZ97">statuts</a> de l'association
-                            </li>
-                            <li>Remplir le <a target="_blank" title="bulletin adhesion 2019" href="https://drive.google.com/open?id=1n4YT6N-skOpn_kanLTbz_0ZWJzCHtkTT">bulletin adhesion 2019</a></li>
-                            <li>Passer contrat avec les producteurs lors de l'AG. Pour ce faire, <strong>la présence à l'AG est indispensable</strong>.</li>
-                            <li>S'inscrire sur le planning de distributions, <strong>ce qui validera votre inscription</strong>.</li>
-                        </ol>
-                        Les contrats sont à remplir, signer et retourner à l'association accompagnés du mode de règlement choisi. Un exemplaire revient au producteur, un à l'adhérent et un à l'AMAP. En général, les contrats sont souscrits lors de l'AG, mais des exceptions sont possibles (contrats en cours d'année).
-                        <ul>
-                            <li><a target="_blank" title="contrat legumes 2019" href="https://drive.google.com/open?id=1hvLmmrFjiDqBsQLfG1-RImrpDxGkrSsY">contrat legumes 2019</a></li>
-                            <li><a target="_blank" title="contrat produits laitiers 2019" href="https://drive.google.com/open?id=1dPIJdWFmVrk6n4V9nYXSQCbs9-r_pxAv">contrat produits laitiers 2019</a></li>
-                            <li><a target="_blank" title="contrat fromage chevre 2019" href="https://drive.google.com/open?id=1Vc26kb3OOg9aNt2cNkGHhxd3LUwYKBfF">contrat fromage chevre 2019</a></li>
-                            <li><a target="_blank" title="contrat pates 2019" href="https://drive.google.com/open?id=1Q6GgBQG3r1CjFM-8i_-inIhzJpG_6koL">contrat pates 2019</a> <a target="_blank" title="contrat pates 2019 changement" href="https://drive.google.com/open?id=1sUuUs_utDxOlMrPlKwJhidbhNzXGOd4V">(changement par rapport à 2018)</a></li>
-                            <li><a target="_blank" title="contrat oeufs 2019" href="https://drive.google.com/open?id=1tYhL4SyZgFzbxMOSJoORp8nwtrbFWLaU">contrat oeufs 2019</a></li>
-                            <li><a target="_blank" title="contrat pain 2019" href="https://drive.google.com/open?id=1875yHyX0qsy_86AJZy73JRCyjaV9Zm2U">contrat pain 2019</a> <a target="_blank" title="contrat pain 2019 annexe" href="https://drive.google.com/open?id=1tOweZ2T6UNLKZ1kLfqTxkQWwiIdHSpcZ">(annexe)</a></li>
-                            <li><a target="_blank" title="contrat poisson 2019" href="https://drive.google.com/open?id=1lQzJL4KKODtz9hj7DMLT17NQ7LuL6vLU">contrat poisson 2019</a></li>
-                            <li><a target="_blank" title="contrat fromage abondance 2019" href="https://drive.google.com/open?id=1nz9PLHIfioW31mUslQ9k1iosxK3PA92I">contrat fromage abondance 2019</a></li>
-                        </ul>
-                    </p>
-                </section>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <section id="contact">
-                    <div class="parallax bg5"></div>
-                    <h2 class="mt-4">Contact</h2>
-                    <p>
-                        Pour nous faire part de vos commentaires, suggestions, critiques, ou compliments, vous pouvez nous contacter, soit:
-                        <ul>
-                            <li>
-                                <strong>Par courriel</strong>
-                                A l'adresse: <a href="mailto:lebonspanier@gmail.com">lebonspanier@gmail.com</a>.
-                            </li>
-                            <li>
-                                <strong>Par courrier postal:</strong>
-                                Association “Le Bons panier”
-                                Mairie de Bons-en-Chablais
-                                15 Place Henri Boucher
-                                74890 Bons-en-Chablais
-                            </li>
-                        </ul>
-                        <h4>Comité et rôles</h4>
-                        L'association fonctionne grâce à l'engagement bénévole d'une équipe chaleureuse et motivée. Outre les rôles habituels de président, vice-président et trésorier, les relations avec les producteurs sont assurées grâce à un système de référents. Une personne de l'amap s'occupe d'un producteur et entretien une relation privilégiée avec lui.
-                        <h4>Enquête de satisfaction annuelle</h4>
-                        Chaque fin d'année l'association mène une enquête auprès de ses adhérents. Cliquer ici pour consulter les <a href="https://docs.google.com/forms/d/1YU1wTLaPRXUBFFxNfqwSHN6JwxlvE1wX_UIOMIjVcwk/edit#responses" target="_blank" rel="noopener">résultats de l'enquête 2018</a>.
-                    </p>
-                </section>
-            </div>
-        </div>
+        <section>
+            <div class="parallax bg1"></div>
+            <h2 class="mt-4">Qu'est-ce qu'une AMAP ?</h2>
+            <p>
+                AMAP signifie Association pour le Maintien d&#39;une Agriculture Paysanne.
+                Il s&#39;agit d&#39;une association au sein de laquelle producteurs et consommateurs
+                de produits agricoles s&#39;engagent par contrat &agrave; fournir pour les uns et acheter
+                pour les autres, pour une saison de production en g&eacute;n&eacute;ral, les produits cultiv&eacute;s.
+                Ce mode de fonctionnement pr&eacute;sente de nombreux avantages pour les deux parties,
+                qui sont expliqu&eacute;s dans la d&eacute;finition de l&#39;annuaire national des AMAPs.
+            </p>
+            <p>
+                L&#39;AMAP Le Bons Panier vous propose des l&eacute;gumes, du fromage, des oeufs, des poissons du l&eacute;man,
+                des produits laitiers, du poulet, et sur commande ponctuelle d&#39;autres produits.
+                L&#39;AMAP informe ses membres lorsque ces produits sont propos&eacute;s.
+            </p>
+            <p>
+                L&#39;achat des produits propos&eacute;s par l&#39;AMAP par contrat annuel avec les producteurs
+                implique &eacute;galement de devenir membre de l&#39;association et de s&#39;engager &agrave; assurer
+                deux &agrave; trois distributions dans l&#39;ann&eacute;e. C&#39;est en effet gr&acirc;ce &agrave; ce soutien b&eacute;n&eacute;vole
+                que la distribution des produits peut &ecirc;tre assur&eacute;e tout au long de l&#39;ann&eacute;e.
+                Un planning des distributions est ainsi constitu&eacute; en d&eacute;but d&#39;ann&eacute;e lorsque
+                tous les adh&eacute;rents sont inscrits, et un email rappelle chaque semaine le contenu
+                de la distribution et quelles personnes sont inscrites pour l&#39;assurer.
+                Des &eacute;changes sont &eacute;videmment possibles en cas d&#39;emp&ecirc;chement.
+            </p>
+        </section>
+        
+        <section id="distributions">
+            <div class="parallax bg2"></div>
+            <h2 class="mt-4">Distributions</h2>
+            <p>
+                Les distributions ont lieu les mardis de 18h &agrave; 19h sous la grenette de la gare de Bons-en-Chablais,
+                selon le planning ci-desssus. En plus des distributions r&eacute;guli&egrave;res,
+                les distributions occasionnelles sont notifi&eacute;es par email aux adh&eacute;rents.
+                <div class="map"><iframe src="https://www.google.com/maps/d/embed?mid=1c-pDLGI22MEEW_p-B7hREPIJHi8" width="640" height="480"></iframe></div>
+            </p>
+        </section>
+
+        <section id="producteurs">
+            <div class="parallax bg3"></div>
+            <h2 class="mt-4">Les producteurs</h2>
+            <ul>
+                <li>Fromage d&rsquo;abondance: <a target="_blank" href="https://www.facebook.com/GAEC-Grillet-Aubert-227161931151182/">GAEC Grillet Aubert (page Facebook)</a></li>
+                <li>L&eacute;gumes: <a target="_blank" href="https://www.facebook.com/Le-Potager-des-Fourches-727773764017980/">Le potager des fourches (page Facebook)</a></li>
+                <li>Produits laitiers (yaourts, fromage blanc, faisselle, lait frais): <a target="_blank" href="http://www.fromages-yaourts-produits-laitiers-chablais.com/">La ferme de p'tit Fou&eacute;</a></li>
+                <li>Fromages de ch&egrave;vre: <a target="_blank" href="http://www.ferme-de-rimandon.com/">Ferme de Rimandon</a></li>
+                <li>Oeufs: <a target="_blank" href="http://annuaire-bio.mobi/operateur/74502">La brouette &agrave; plumes</a></li>
+                <li>P&acirc;tes fra&icirc;ches: <a target="_blank" href="http://www.lemessager.fr/chablais/a-anthy-une-jeune-maraichere-se-lance-dans-les-pates-ia923b924n183824#">Jessica Groppi</a></li>
+                <li>Poisson du lac: <a target="_blank" href="https://granvillage.com/b/487-lionel-bouchet-vente-de-poissons-du-lac-leman/">Lionel Bouchet</a></li>
+                <li>Poulet: <a target="_blank" href="http://www.bienvenue-a-la-ferme.com/rhone-alpes/haute-savoie/brenthonne/ferme/gaec-la-praly/257117">GAEC La praly</a></li>
+                <li>Viande d&rsquo;alpage (boeuf et agneau): <a target="_blank" href="https://www.facebook.com/GAEC-le-coin-1693258800943357/">GAEC le coin &ndash; Mieussy (page Facebook)</a></li>
+                <li>Pain: <a target="_blank" href="http://www.chablais.bio/le-fournil-de-langin/types-de-pain">Le fournil de Langin</a></li>
+            </ul>
+        </section>
+
+        <section id="adhesion">
+            <div class="parallax bg4"></div>
+            <h2 class="mt-4">Adh&eacute;sion</h2>
+            <p>
+                L'adhésion à l'AMAP a lieu lors de l'assemblée générale (AG) annuelle. Pour adhérer, 4 étapes indispensables:
+                <ol>
+                    <li>
+                        Consulter le <a target="_blank" title="reglement intérieur 2019" href="https://drive.google.com/open?id=0BxwkUw_iOCDYZjRiYjljZTgtZGZmOS00Y2YyLTk2MzQtOGM2ZGY2Yjk2Mjlm">règlement intérieur 2019</a>
+                        et les <a target="_blank" title="statut AMAP Bons panier" href="https://drive.google.com/open?id=1_eqD3_-uXCiyqMHvyiD7Kk1EXIJeWZ97">statuts</a> de l'association
+                    </li>
+                    <li>Remplir le <a target="_blank" title="bulletin adhesion 2019" href="https://drive.google.com/open?id=1n4YT6N-skOpn_kanLTbz_0ZWJzCHtkTT">bulletin adhesion 2019</a></li>
+                    <li>Passer contrat avec les producteurs lors de l'AG. Pour ce faire, <strong>la présence à l'AG est indispensable</strong>.</li>
+                    <li>S'inscrire sur le planning de distributions, <strong>ce qui validera votre inscription</strong>.</li>
+                </ol>
+                Les contrats sont à remplir, signer et retourner à l'association accompagnés du mode de règlement choisi. Un exemplaire revient au producteur, un à l'adhérent et un à l'AMAP. En général, les contrats sont souscrits lors de l'AG, mais des exceptions sont possibles (contrats en cours d'année).
+                <ul>
+                    <li><a target="_blank" title="contrat legumes 2019" href="https://drive.google.com/open?id=1hvLmmrFjiDqBsQLfG1-RImrpDxGkrSsY">contrat legumes 2019</a></li>
+                    <li><a target="_blank" title="contrat produits laitiers 2019" href="https://drive.google.com/open?id=1dPIJdWFmVrk6n4V9nYXSQCbs9-r_pxAv">contrat produits laitiers 2019</a></li>
+                    <li><a target="_blank" title="contrat fromage chevre 2019" href="https://drive.google.com/open?id=1Vc26kb3OOg9aNt2cNkGHhxd3LUwYKBfF">contrat fromage chevre 2019</a></li>
+                    <li><a target="_blank" title="contrat pates 2019" href="https://drive.google.com/open?id=1Q6GgBQG3r1CjFM-8i_-inIhzJpG_6koL">contrat pates 2019</a> <a target="_blank" title="contrat pates 2019 changement" href="https://drive.google.com/open?id=1sUuUs_utDxOlMrPlKwJhidbhNzXGOd4V">(changement par rapport à 2018)</a></li>
+                    <li><a target="_blank" title="contrat oeufs 2019" href="https://drive.google.com/open?id=1tYhL4SyZgFzbxMOSJoORp8nwtrbFWLaU">contrat oeufs 2019</a></li>
+                    <li><a target="_blank" title="contrat pain 2019" href="https://drive.google.com/open?id=1875yHyX0qsy_86AJZy73JRCyjaV9Zm2U">contrat pain 2019</a> <a target="_blank" title="contrat pain 2019 annexe" href="https://drive.google.com/open?id=1tOweZ2T6UNLKZ1kLfqTxkQWwiIdHSpcZ">(annexe)</a></li>
+                    <li><a target="_blank" title="contrat poisson 2019" href="https://drive.google.com/open?id=1lQzJL4KKODtz9hj7DMLT17NQ7LuL6vLU">contrat poisson 2019</a></li>
+                    <li><a target="_blank" title="contrat fromage abondance 2019" href="https://drive.google.com/open?id=1nz9PLHIfioW31mUslQ9k1iosxK3PA92I">contrat fromage abondance 2019</a></li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="contact">
+            <div class="parallax bg5"></div>
+            <h2 class="mt-4">Contact</h2>
+            <p>
+                Pour nous faire part de vos commentaires, suggestions, critiques, ou compliments, vous pouvez nous contacter, soit:
+                <ul>
+                    <li>
+                        <strong>Par courriel</strong>
+                        A l'adresse: <a href="mailto:lebonspanier@gmail.com">lebonspanier@gmail.com</a>.
+                    </li>
+                    <li>
+                        <strong>Par courrier postal:</strong>
+                        Association “Le Bons panier”
+                        Mairie de Bons-en-Chablais
+                        15 Place Henri Boucher
+                        74890 Bons-en-Chablais
+                    </li>
+                </ul>
+                <h4>Comité et rôles</h4>
+                L'association fonctionne grâce à l'engagement bénévole d'une équipe chaleureuse et motivée. Outre les rôles habituels de président, vice-président et trésorier, les relations avec les producteurs sont assurées grâce à un système de référents. Une personne de l'amap s'occupe d'un producteur et entretien une relation privilégiée avec lui.
+                <h4>Enquête de satisfaction annuelle</h4>
+                Chaque fin d'année l'association mène une enquête auprès de ses adhérents. Cliquer ici pour consulter les <a href="https://docs.google.com/forms/d/1YU1wTLaPRXUBFFxNfqwSHN6JwxlvE1wX_UIOMIjVcwk/edit#responses" target="_blank" rel="noopener">résultats de l'enquête 2018</a>.
+            </p>
+        </section>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
